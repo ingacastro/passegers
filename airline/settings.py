@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'flights',
+    'hello',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -77,11 +78,10 @@ WSGI_APPLICATION = 'airline.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        'NAME': 'airline',
-        'USER': 'postgres',
+        'NAME': 'django',
+        'USER': 'acastro',
         'PASSWORD':'cne123',
-        'HOST' : 'localhost',
-        "PORT": "5433",
+        'HOST' : 'localhost'
     }
 }
 
